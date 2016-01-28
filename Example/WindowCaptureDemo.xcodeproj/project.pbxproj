@@ -1,0 +1,376 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		72E0E6251B7BF8F6AC746701 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5166237FECF12B44658127E /* Pods.framework */; };
+		FA651ABA1C58A9E800C5A568 /* RxX.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA651AB91C58A9E800C5A568 /* RxX.swift */; };
+		FBFDE16B1C491C7C00F664E9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBFDE16A1C491C7C00F664E9 /* AppDelegate.swift */; };
+		FBFDE16F1C491C7D00F664E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBFDE16E1C491C7D00F664E9 /* Assets.xcassets */; };
+		FBFDE1721C491C7D00F664E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBFDE1701C491C7D00F664E9 /* Main.storyboard */; };
+		FBFDE17A1C491D5F00F664E9 /* SplitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBFDE1791C491D5F00F664E9 /* SplitViewController.swift */; };
+		FBFDE17C1C491DD800F664E9 /* WindowsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBFDE17B1C491DD800F664E9 /* WindowsListViewController.swift */; };
+		FBFDE1821C493A7000F664E9 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBFDE1811C493A7000F664E9 /* ImageViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		27804AE925E80A82303B50A7 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		6480FF837EE3A9DE979B6BC2 /* Pods-WindowCaptureDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WindowCaptureDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-WindowCaptureDemo/Pods-WindowCaptureDemo.release.xcconfig"; sourceTree = "<group>"; };
+		B5166237FECF12B44658127E /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCA5E6F7B1BF78FB7D2AE424 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		E04076246D1E6A549B6B1249 /* Pods-WindowCaptureDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WindowCaptureDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WindowCaptureDemo/Pods-WindowCaptureDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		FA651AB91C58A9E800C5A568 /* RxX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RxX.swift; sourceTree = "<group>"; };
+		FBFDE1671C491C7C00F664E9 /* WindowCaptureDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WindowCaptureDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBFDE16A1C491C7C00F664E9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FBFDE16E1C491C7D00F664E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FBFDE1711C491C7D00F664E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FBFDE1731C491C7D00F664E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBFDE1791C491D5F00F664E9 /* SplitViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplitViewController.swift; sourceTree = "<group>"; };
+		FBFDE17B1C491DD800F664E9 /* WindowsListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WindowsListViewController.swift; sourceTree = "<group>"; };
+		FBFDE1811C493A7000F664E9 /* ImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FBFDE1641C491C7C00F664E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72E0E6251B7BF8F6AC746701 /* Pods.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4E44A1FC6A9C0738904B6518 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E04076246D1E6A549B6B1249 /* Pods-WindowCaptureDemo.debug.xcconfig */,
+				6480FF837EE3A9DE979B6BC2 /* Pods-WindowCaptureDemo.release.xcconfig */,
+				27804AE925E80A82303B50A7 /* Pods.debug.xcconfig */,
+				DCA5E6F7B1BF78FB7D2AE424 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		605BE540F3316460BCA44292 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B5166237FECF12B44658127E /* Pods.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FBFDE15E1C491C7C00F664E9 = {
+			isa = PBXGroup;
+			children = (
+				FBFDE1691C491C7C00F664E9 /* WindowCaptureDemo */,
+				FBFDE1681C491C7C00F664E9 /* Products */,
+				4E44A1FC6A9C0738904B6518 /* Pods */,
+				605BE540F3316460BCA44292 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FBFDE1681C491C7C00F664E9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FBFDE1671C491C7C00F664E9 /* WindowCaptureDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FBFDE1691C491C7C00F664E9 /* WindowCaptureDemo */ = {
+			isa = PBXGroup;
+			children = (
+				FBFDE16A1C491C7C00F664E9 /* AppDelegate.swift */,
+				FA651AB91C58A9E800C5A568 /* RxX.swift */,
+				FBFDE16E1C491C7D00F664E9 /* Assets.xcassets */,
+				FBFDE1701C491C7D00F664E9 /* Main.storyboard */,
+				FBFDE1731C491C7D00F664E9 /* Info.plist */,
+				FBFDE1791C491D5F00F664E9 /* SplitViewController.swift */,
+				FBFDE17B1C491DD800F664E9 /* WindowsListViewController.swift */,
+				FBFDE1811C493A7000F664E9 /* ImageViewController.swift */,
+			);
+			path = WindowCaptureDemo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FBFDE1661C491C7C00F664E9 /* WindowCaptureDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBFDE1761C491C7D00F664E9 /* Build configuration list for PBXNativeTarget "WindowCaptureDemo" */;
+			buildPhases = (
+				623AF77CC3C908C34CAD2844 /* Check Pods Manifest.lock */,
+				FBFDE1631C491C7C00F664E9 /* Sources */,
+				FBFDE1641C491C7C00F664E9 /* Frameworks */,
+				FBFDE1651C491C7C00F664E9 /* Resources */,
+				A6427B01AFDCD6B8AD9EB81C /* Embed Pods Frameworks */,
+				C37239C3034A8DEDE04C5ACD /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WindowCaptureDemo;
+			productName = WindowCaptureDemo;
+			productReference = FBFDE1671C491C7C00F664E9 /* WindowCaptureDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FBFDE15F1C491C7C00F664E9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Alejandro Martinez";
+				TargetAttributes = {
+					FBFDE1661C491C7C00F664E9 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = FBFDE1621C491C7C00F664E9 /* Build configuration list for PBXProject "WindowCaptureDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FBFDE15E1C491C7C00F664E9;
+			productRefGroup = FBFDE1681C491C7C00F664E9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FBFDE1661C491C7C00F664E9 /* WindowCaptureDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FBFDE1651C491C7C00F664E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBFDE16F1C491C7D00F664E9 /* Assets.xcassets in Resources */,
+				FBFDE1721C491C7D00F664E9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		623AF77CC3C908C34CAD2844 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A6427B01AFDCD6B8AD9EB81C /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C37239C3034A8DEDE04C5ACD /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FBFDE1631C491C7C00F664E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBFDE17C1C491DD800F664E9 /* WindowsListViewController.swift in Sources */,
+				FBFDE16B1C491C7C00F664E9 /* AppDelegate.swift in Sources */,
+				FBFDE1821C493A7000F664E9 /* ImageViewController.swift in Sources */,
+				FA651ABA1C58A9E800C5A568 /* RxX.swift in Sources */,
+				FBFDE17A1C491D5F00F664E9 /* SplitViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FBFDE1701C491C7D00F664E9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FBFDE1711C491C7D00F664E9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FBFDE1741C491C7D00F664E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FBFDE1751C491C7D00F664E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		FBFDE1771C491C7D00F664E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27804AE925E80A82303B50A7 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = WindowCaptureDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alejandromp.WindowCaptureDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FBFDE1781C491C7D00F664E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DCA5E6F7B1BF78FB7D2AE424 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = WindowCaptureDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alejandromp.WindowCaptureDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FBFDE1621C491C7C00F664E9 /* Build configuration list for PBXProject "WindowCaptureDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBFDE1741C491C7D00F664E9 /* Debug */,
+				FBFDE1751C491C7D00F664E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBFDE1761C491C7D00F664E9 /* Build configuration list for PBXNativeTarget "WindowCaptureDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBFDE1771C491C7D00F664E9 /* Debug */,
+				FBFDE1781C491C7D00F664E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FBFDE15F1C491C7C00F664E9 /* Project object */;
+}

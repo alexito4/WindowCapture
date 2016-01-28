@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Pods-WindowCapture_Example.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-WindowCapture_Tests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>WindowCapture-WindowCapture.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>WindowCapture.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>132AF87969F3CCEC67823E42A9F5AD41</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>41632684C928672FF13232737F691A91</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>70C840098EFA5CD2CD6B1756A50FF1E4</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E3E2628F454C048053E10795AA2CEDDE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

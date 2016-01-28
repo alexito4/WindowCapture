@@ -1,0 +1,780 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0E178925D3077F9176FF6E720D3644BE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		25BE17C32D7DD8FB7D562F2AAD1690B8 /* Pods-WindowCapture_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CD3D42D585669D1CBECBE0C7356189D /* Pods-WindowCapture_Tests-dummy.m */; };
+		483DA3508DCE236BF6B38A651AE23293 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		49E1F71AA277EACC8D3EE2F7CEE2D8F9 /* WindowCapture-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BAD9F9CB2717778E91D398032C459EE0 /* WindowCapture-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		526B5FEAC58E69E780ED13583F7289F0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		6840B59ABA0D8619C536606305F0D7B0 /* WindowCapture-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C176C7D17C1A02D0ABB2C25F28349C4C /* WindowCapture-dummy.m */; };
+		89890B6C7B2F12113CBC5EF525FBF6BF /* Pods-WindowCapture_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A222512B32941C9179BB9D363C6C6B5 /* Pods-WindowCapture_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9405A55355569D195B2F93E4827184D3 /* Pods-WindowCapture_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F5A72F73D349BD01CF9F348FF655CA76 /* Pods-WindowCapture_Example-dummy.m */; };
+		94F1B91FF6EA1DDB19DEF463A4C6DFFB /* Pods-WindowCapture_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 462472AFBBDB5692BDAE81F72D0C2216 /* Pods-WindowCapture_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		986320DB112528350F9076AF07B3B07E /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64CF98DD3C1D355DFF4370A29C01AF07 /* ReplaceMe.swift */; };
+		E3809107519875D0D7EB9849857D3A71 /* WindowCapture.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 7BDB59769EB7A2BBBF60A65574C315B8 /* WindowCapture.bundle */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2DAD8D2EF798C3AC45FF440081257D48 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 41632684C928672FF13232737F691A91;
+			remoteInfo = WindowCapture;
+		};
+		AAD22BB9426ACA1BCD6C07EA201732BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 70C840098EFA5CD2CD6B1756A50FF1E4;
+			remoteInfo = "WindowCapture-WindowCapture";
+		};
+		B0517832BEB08310DFF2BD2E58DA57C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 41632684C928672FF13232737F691A91;
+			remoteInfo = WindowCapture;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1A222512B32941C9179BB9D363C6C6B5 /* Pods-WindowCapture_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WindowCapture_Example-umbrella.h"; sourceTree = "<group>"; };
+		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		462472AFBBDB5692BDAE81F72D0C2216 /* Pods-WindowCapture_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WindowCapture_Tests-umbrella.h"; sourceTree = "<group>"; };
+		4CD8965188F630F8CEA4842A89A4DBFB /* Pods-WindowCapture_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WindowCapture_Example-resources.sh"; sourceTree = "<group>"; };
+		5523DADD8235C2FB37B22E35AA487D96 /* Pods-WindowCapture_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WindowCapture_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		569F313D61D188F0C87A02948B654C04 /* Pods-WindowCapture_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WindowCapture_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		5CD3D42D585669D1CBECBE0C7356189D /* Pods-WindowCapture_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WindowCapture_Tests-dummy.m"; sourceTree = "<group>"; };
+		64CF98DD3C1D355DFF4370A29C01AF07 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
+		7BDB59769EB7A2BBBF60A65574C315B8 /* WindowCapture.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WindowCapture.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		8171C9EBF8F7B1B8508BD64407A26558 /* Pods-WindowCapture_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WindowCapture_Tests-resources.sh"; sourceTree = "<group>"; };
+		8E9FB20E0131FB4FDBA335840154D6A5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BAC48F7557A0B6D45D4A696B1BDAB9A /* WindowCapture.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WindowCapture.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9EC8DF9335293ACD42B863800670263E /* Pods_WindowCapture_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WindowCapture_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6F9A5D96E20E147B1B47C3E3A86E19A /* Pods-WindowCapture_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WindowCapture_Example.release.xcconfig"; sourceTree = "<group>"; };
+		A86F7652B2E9ACDD895B03E5E8C30C62 /* Pods-WindowCapture_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WindowCapture_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		A9F77112084D3ED2BECD28FAC03BE3A0 /* Pods-WindowCapture_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WindowCapture_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		AD042E4AB99A2293FF7260A434283E34 /* WindowCapture.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = WindowCapture.modulemap; sourceTree = "<group>"; };
+		B18E78458A68970DDAD778E37E110526 /* Pods-WindowCapture_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WindowCapture_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BAD9F9CB2717778E91D398032C459EE0 /* WindowCapture-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WindowCapture-umbrella.h"; sourceTree = "<group>"; };
+		C176C7D17C1A02D0ABB2C25F28349C4C /* WindowCapture-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WindowCapture-dummy.m"; sourceTree = "<group>"; };
+		C3B6B2A5FB0E6FEEE3F2BFF4D95F9344 /* Pods-WindowCapture_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WindowCapture_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		C6926692D7A1FDDC03F663D3E6014735 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9D0E567EA4AAFDAC27EB4FF0CA62D7E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9FAABDBBA2D8312095D84C825FB497A /* WindowCapture-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WindowCapture-prefix.pch"; sourceTree = "<group>"; };
+		CF3996C0EC203D562617C3F5CB9CE1C2 /* Pods_WindowCapture_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WindowCapture_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFC720359D74AD6022F743155DA4E329 /* WindowCapture.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WindowCapture.xcconfig; sourceTree = "<group>"; };
+		DD11D883BBDB0CD301B36CAE99D07FDF /* Pods-WindowCapture_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WindowCapture_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E5773F1E530A10E52ED094524879EFF9 /* Pods-WindowCapture_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-WindowCapture_Tests.modulemap"; sourceTree = "<group>"; };
+		F3DDF10DC962F762C89008DFBFC3E964 /* Pods-WindowCapture_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-WindowCapture_Example.modulemap"; sourceTree = "<group>"; };
+		F5A72F73D349BD01CF9F348FF655CA76 /* Pods-WindowCapture_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WindowCapture_Example-dummy.m"; sourceTree = "<group>"; };
+		F64B653D9728C2B4533A964DE2955C19 /* Pods-WindowCapture_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WindowCapture_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		F8C553C3D113D3778AF4DCEF42FA4C52 /* Pods-WindowCapture_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WindowCapture_Example-frameworks.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ADB26E5E3333E453BA83799AC0C4706B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0FDDD4356E4FD697F967786584237DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E178925D3077F9176FF6E720D3644BE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB4E639E982577E32070BBEA38BF3945 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				526B5FEAC58E69E780ED13583F7289F0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCB34BFA802C8640C4945F118689FA68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				483DA3508DCE236BF6B38A651AE23293 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		24CB6A1DE82E7C4A335E5854E5424E07 /* WindowCapture */ = {
+			isa = PBXGroup;
+			children = (
+				2F537DBE647755AE631D3E0D50813740 /* Pod */,
+				CC299D2061D4988B2E4F66CC224DFB2C /* Support Files */,
+			);
+			name = WindowCapture;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		2F537DBE647755AE631D3E0D50813740 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				6DC50ABD5191C02E7F5143C764271E82 /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		4CB1959FBDACA2F254C711522C534BDB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9EC8DF9335293ACD42B863800670263E /* Pods_WindowCapture_Example.framework */,
+				CF3996C0EC203D562617C3F5CB9CE1C2 /* Pods_WindowCapture_Tests.framework */,
+				7BDB59769EB7A2BBBF60A65574C315B8 /* WindowCapture.bundle */,
+				9BAC48F7557A0B6D45D4A696B1BDAB9A /* WindowCapture.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6DC50ABD5191C02E7F5143C764271E82 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				64CF98DD3C1D355DFF4370A29C01AF07 /* ReplaceMe.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				A051BA26B11AB90013CCAE4A6FE042DE /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				4CB1959FBDACA2F254C711522C534BDB /* Products */,
+				82FB09363F29CF1CEA6A3AC1D37C9862 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		82FB09363F29CF1CEA6A3AC1D37C9862 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F75A61AFBAC138659725A8D0E587C00D /* Pods-WindowCapture_Example */,
+				C7AE098D2521AB43FDD4FDDDE504BCA1 /* Pods-WindowCapture_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		A051BA26B11AB90013CCAE4A6FE042DE /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				24CB6A1DE82E7C4A335E5854E5424E07 /* WindowCapture */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C7AE098D2521AB43FDD4FDDDE504BCA1 /* Pods-WindowCapture_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				C6926692D7A1FDDC03F663D3E6014735 /* Info.plist */,
+				E5773F1E530A10E52ED094524879EFF9 /* Pods-WindowCapture_Tests.modulemap */,
+				B18E78458A68970DDAD778E37E110526 /* Pods-WindowCapture_Tests-acknowledgements.markdown */,
+				C3B6B2A5FB0E6FEEE3F2BFF4D95F9344 /* Pods-WindowCapture_Tests-acknowledgements.plist */,
+				5CD3D42D585669D1CBECBE0C7356189D /* Pods-WindowCapture_Tests-dummy.m */,
+				5523DADD8235C2FB37B22E35AA487D96 /* Pods-WindowCapture_Tests-frameworks.sh */,
+				8171C9EBF8F7B1B8508BD64407A26558 /* Pods-WindowCapture_Tests-resources.sh */,
+				462472AFBBDB5692BDAE81F72D0C2216 /* Pods-WindowCapture_Tests-umbrella.h */,
+				569F313D61D188F0C87A02948B654C04 /* Pods-WindowCapture_Tests.debug.xcconfig */,
+				A9F77112084D3ED2BECD28FAC03BE3A0 /* Pods-WindowCapture_Tests.release.xcconfig */,
+			);
+			name = "Pods-WindowCapture_Tests";
+			path = "Target Support Files/Pods-WindowCapture_Tests";
+			sourceTree = "<group>";
+		};
+		CC299D2061D4988B2E4F66CC224DFB2C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C9D0E567EA4AAFDAC27EB4FF0CA62D7E /* Info.plist */,
+				AD042E4AB99A2293FF7260A434283E34 /* WindowCapture.modulemap */,
+				CFC720359D74AD6022F743155DA4E329 /* WindowCapture.xcconfig */,
+				C176C7D17C1A02D0ABB2C25F28349C4C /* WindowCapture-dummy.m */,
+				C9FAABDBBA2D8312095D84C825FB497A /* WindowCapture-prefix.pch */,
+				BAD9F9CB2717778E91D398032C459EE0 /* WindowCapture-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/WindowCapture";
+			sourceTree = "<group>";
+		};
+		F75A61AFBAC138659725A8D0E587C00D /* Pods-WindowCapture_Example */ = {
+			isa = PBXGroup;
+			children = (
+				8E9FB20E0131FB4FDBA335840154D6A5 /* Info.plist */,
+				F3DDF10DC962F762C89008DFBFC3E964 /* Pods-WindowCapture_Example.modulemap */,
+				DD11D883BBDB0CD301B36CAE99D07FDF /* Pods-WindowCapture_Example-acknowledgements.markdown */,
+				A86F7652B2E9ACDD895B03E5E8C30C62 /* Pods-WindowCapture_Example-acknowledgements.plist */,
+				F5A72F73D349BD01CF9F348FF655CA76 /* Pods-WindowCapture_Example-dummy.m */,
+				F8C553C3D113D3778AF4DCEF42FA4C52 /* Pods-WindowCapture_Example-frameworks.sh */,
+				4CD8965188F630F8CEA4842A89A4DBFB /* Pods-WindowCapture_Example-resources.sh */,
+				1A222512B32941C9179BB9D363C6C6B5 /* Pods-WindowCapture_Example-umbrella.h */,
+				F64B653D9728C2B4533A964DE2955C19 /* Pods-WindowCapture_Example.debug.xcconfig */,
+				A6F9A5D96E20E147B1B47C3E3A86E19A /* Pods-WindowCapture_Example.release.xcconfig */,
+			);
+			name = "Pods-WindowCapture_Example";
+			path = "Target Support Files/Pods-WindowCapture_Example";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		C4B35F1B4EFDC430F3E01AC10A917959 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89890B6C7B2F12113CBC5EF525FBF6BF /* Pods-WindowCapture_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1349CE5D48E1D60F1EEA6C465D8FA9C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94F1B91FF6EA1DDB19DEF463A4C6DFFB /* Pods-WindowCapture_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E622281A09D4473F2EAB46A080AD439B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49E1F71AA277EACC8D3EE2F7CEE2D8F9 /* WindowCapture-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		132AF87969F3CCEC67823E42A9F5AD41 /* Pods-WindowCapture_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6498E27BF610A0E01D6BD0D941749B4 /* Build configuration list for PBXNativeTarget "Pods-WindowCapture_Example" */;
+			buildPhases = (
+				980B2DFBDAC9E38EC91CD0AA18D23F40 /* Sources */,
+				FCB34BFA802C8640C4945F118689FA68 /* Frameworks */,
+				C4B35F1B4EFDC430F3E01AC10A917959 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E147B0C8636ED531541F58DCCF2ED632 /* PBXTargetDependency */,
+			);
+			name = "Pods-WindowCapture_Example";
+			productName = "Pods-WindowCapture_Example";
+			productReference = 9EC8DF9335293ACD42B863800670263E /* Pods_WindowCapture_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		41632684C928672FF13232737F691A91 /* WindowCapture */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 481CB38EBDBB6C7A642230C77E5B620B /* Build configuration list for PBXNativeTarget "WindowCapture" */;
+			buildPhases = (
+				BB5F656ACEC3FE85201B43E65B78D6B6 /* Sources */,
+				BB4E639E982577E32070BBEA38BF3945 /* Frameworks */,
+				F1E69326CEA523A4536CBC8F6BA045A8 /* Resources */,
+				E622281A09D4473F2EAB46A080AD439B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				220DFB7CA56342FDF6FC841627A6B666 /* PBXTargetDependency */,
+			);
+			name = WindowCapture;
+			productName = WindowCapture;
+			productReference = 9BAC48F7557A0B6D45D4A696B1BDAB9A /* WindowCapture.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		70C840098EFA5CD2CD6B1756A50FF1E4 /* WindowCapture-WindowCapture */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C991035A2A94B03FF7D8EB3B48C0F54C /* Build configuration list for PBXNativeTarget "WindowCapture-WindowCapture" */;
+			buildPhases = (
+				222E1E79F1D7906553D962A20E5D5C18 /* Sources */,
+				ADB26E5E3333E453BA83799AC0C4706B /* Frameworks */,
+				D487CFA79BE48184DF73E5F4C99B70B9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WindowCapture-WindowCapture";
+			productName = "WindowCapture-WindowCapture";
+			productReference = 7BDB59769EB7A2BBBF60A65574C315B8 /* WindowCapture.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		E3E2628F454C048053E10795AA2CEDDE /* Pods-WindowCapture_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 462BDE38C7EB9AB58129A3C12835989B /* Build configuration list for PBXNativeTarget "Pods-WindowCapture_Tests" */;
+			buildPhases = (
+				409349F321D3D31CAAF823252A753F67 /* Sources */,
+				B0FDDD4356E4FD697F967786584237DE /* Frameworks */,
+				D1349CE5D48E1D60F1EEA6C465D8FA9C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A6CB41CA907805306C318A6E9B69285B /* PBXTargetDependency */,
+			);
+			name = "Pods-WindowCapture_Tests";
+			productName = "Pods-WindowCapture_Tests";
+			productReference = CF3996C0EC203D562617C3F5CB9CE1C2 /* Pods_WindowCapture_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 4CB1959FBDACA2F254C711522C534BDB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				132AF87969F3CCEC67823E42A9F5AD41 /* Pods-WindowCapture_Example */,
+				E3E2628F454C048053E10795AA2CEDDE /* Pods-WindowCapture_Tests */,
+				41632684C928672FF13232737F691A91 /* WindowCapture */,
+				70C840098EFA5CD2CD6B1756A50FF1E4 /* WindowCapture-WindowCapture */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D487CFA79BE48184DF73E5F4C99B70B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1E69326CEA523A4536CBC8F6BA045A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3809107519875D0D7EB9849857D3A71 /* WindowCapture.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		222E1E79F1D7906553D962A20E5D5C18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		409349F321D3D31CAAF823252A753F67 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25BE17C32D7DD8FB7D562F2AAD1690B8 /* Pods-WindowCapture_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		980B2DFBDAC9E38EC91CD0AA18D23F40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9405A55355569D195B2F93E4827184D3 /* Pods-WindowCapture_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB5F656ACEC3FE85201B43E65B78D6B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				986320DB112528350F9076AF07B3B07E /* ReplaceMe.swift in Sources */,
+				6840B59ABA0D8619C536606305F0D7B0 /* WindowCapture-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		220DFB7CA56342FDF6FC841627A6B666 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "WindowCapture-WindowCapture";
+			target = 70C840098EFA5CD2CD6B1756A50FF1E4 /* WindowCapture-WindowCapture */;
+			targetProxy = AAD22BB9426ACA1BCD6C07EA201732BE /* PBXContainerItemProxy */;
+		};
+		A6CB41CA907805306C318A6E9B69285B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WindowCapture;
+			target = 41632684C928672FF13232737F691A91 /* WindowCapture */;
+			targetProxy = B0517832BEB08310DFF2BD2E58DA57C4 /* PBXContainerItemProxy */;
+		};
+		E147B0C8636ED531541F58DCCF2ED632 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WindowCapture;
+			target = 41632684C928672FF13232737F691A91 /* WindowCapture */;
+			targetProxy = 2DAD8D2EF798C3AC45FF440081257D48 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		10DE1947DAC0ED28F6C0A9F9BD75D546 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		29F490540942105423B8139FE634E346 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6F9A5D96E20E147B1B47C3E3A86E19A /* Pods-WindowCapture_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-WindowCapture_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WindowCapture_Example/Pods-WindowCapture_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_WindowCapture_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2E833DF2F166CE3E9A13DC385D622A8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F64B653D9728C2B4533A964DE2955C19 /* Pods-WindowCapture_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-WindowCapture_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WindowCapture_Example/Pods-WindowCapture_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_WindowCapture_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4D1E542FB3900D710585706D6F12BBF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFC720359D74AD6022F743155DA4E329 /* WindowCapture.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/WindowCapture/WindowCapture-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WindowCapture/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WindowCapture/WindowCapture.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = WindowCapture;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		552D02D5BA751AC2E8790D2811D496CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		6B67984F12A1D8BE7709690DACED3FFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFC720359D74AD6022F743155DA4E329 /* WindowCapture.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = WindowCapture;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		7C6C1714E9E5E61A369B0ED070506916 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 569F313D61D188F0C87A02948B654C04 /* Pods-WindowCapture_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-WindowCapture_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WindowCapture_Tests/Pods-WindowCapture_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_WindowCapture_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AC87CE0981757A43FBF3DA3A0B2A84AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFC720359D74AD6022F743155DA4E329 /* WindowCapture.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/WindowCapture/WindowCapture-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WindowCapture/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WindowCapture/WindowCapture.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = WindowCapture;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BEA2E2004FD863530ECB40CB3AC6E2BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9F77112084D3ED2BECD28FAC03BE3A0 /* Pods-WindowCapture_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-WindowCapture_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WindowCapture_Tests/Pods-WindowCapture_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_WindowCapture_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DA6BE65364571427436AA8883CE1C8D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFC720359D74AD6022F743155DA4E329 /* WindowCapture.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = WindowCapture;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				552D02D5BA751AC2E8790D2811D496CA /* Debug */,
+				10DE1947DAC0ED28F6C0A9F9BD75D546 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		462BDE38C7EB9AB58129A3C12835989B /* Build configuration list for PBXNativeTarget "Pods-WindowCapture_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C6C1714E9E5E61A369B0ED070506916 /* Debug */,
+				BEA2E2004FD863530ECB40CB3AC6E2BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		481CB38EBDBB6C7A642230C77E5B620B /* Build configuration list for PBXNativeTarget "WindowCapture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D1E542FB3900D710585706D6F12BBF4 /* Debug */,
+				AC87CE0981757A43FBF3DA3A0B2A84AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C991035A2A94B03FF7D8EB3B48C0F54C /* Build configuration list for PBXNativeTarget "WindowCapture-WindowCapture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA6BE65364571427436AA8883CE1C8D4 /* Debug */,
+				6B67984F12A1D8BE7709690DACED3FFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6498E27BF610A0E01D6BD0D941749B4 /* Build configuration list for PBXNativeTarget "Pods-WindowCapture_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E833DF2F166CE3E9A13DC385D622A8B /* Debug */,
+				29F490540942105423B8139FE634E346 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

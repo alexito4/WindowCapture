@@ -1,0 +1,6 @@
+framework module WindowCapture {
+  umbrella header "WindowCapture-umbrella.h"
+
+  export *
+  module * { export * }
+}

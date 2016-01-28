@@ -1,0 +1,17 @@
+PODS:
+  - RxSwift (2.1.0)
+  - WindowCapture (0.1.0):
+    - RxSwift (~> 2.0)
+
+DEPENDENCIES:
+  - WindowCapture (from `../`)
+
+EXTERNAL SOURCES:
+  WindowCapture:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  RxSwift: 110fb07f81c17c2c3b3254d168363057b1880d18
+  WindowCapture: 7dbc8b3a110e35d3e59dae109105b7be42471ccc
+
+COCOAPODS: 0.39.0

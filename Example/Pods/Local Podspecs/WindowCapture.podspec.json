@@ -1,0 +1,27 @@
+{
+  "name": "WindowCapture",
+  "version": "0.1.0",
+  "summary": "Swift wrapper for CGWindow APIs + RX",
+  "description": "Swift wrapper for CGWindow APIs + RX.\nMakes easy to capture the windows that are opened in OS X.",
+  "homepage": "https://github.com/alexito4/WindowCapture",
+  "license": "MIT",
+  "authors": {
+    "Alejandro Martínez": "alexito4@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/WindowCapture.git",
+    "tag": "0.1.0"
+  },
+  "social_media_url": "https://twitter.com/alexito4",
+  "platforms": {
+    "osx": null
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "frameworks": "Quartz",
+  "dependencies": {
+    "RxSwift": [
+      "~> 2.0"
+    ]
+  }
+}
